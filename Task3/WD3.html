@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Form</title>
+  <link rel="stylesheet" type="text/css" href="styles3.css">
+</head>
+<body>
+  <div class="container">
+    <div class="form-container">
+      <h2>Registration Form</h2>
+      <form id="registration-form">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" required>
+        </div>
+        <div class="form-group">
+          <label for="website">Website:</label>
+          <input type="text" id="website" required>
+        </div>
+        <div class="form-group">
+          <label for="image-link">Image Link:</label>
+          <input type="text" id="image-link" required>
+        </div>
+        <div class="form-group">
+          <label>Gender:</label>
+          <label for="male">
+            <input type="checkbox" id="male" name="gender" value="Male"> Male
+          </label>
+          <label for="female">
+            <input type="checkbox" id="female" name="gender" value="Female"> Female
+          </label>
+          <label for="other">
+            <input type="checkbox" id="other" name="gender" value="Other"> Other
+          </label>
+        </div>
+        <div class="form-group">
+          <label>Skills:</label>
+          <label for="html">
+            <input type="checkbox" id="html" name="skills" value="HTML"> HTML
+          </label>
+          <label for="css">
+            <input type="checkbox" id="css" name="skills" value="CSS"> CSS
+          </label>
+          <label for="js">
+            <input type="checkbox" id="js" name="skills" value="JavaScript"> JavaScript
+          </label>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <div id="display-data"></div>
+  </div>
+
+  <script src="script3.js"></script>
+</body>
+</html>

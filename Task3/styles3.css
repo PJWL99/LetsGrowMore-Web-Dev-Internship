@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+  }
+
+  .form-container {
+    flex: 1;
+    margin-right: 20px;
+    background-color: #eaf6f6
+
+  }
+
+  .form-group {
+    margin-bottom: 10px;
+  }
+
+  .form-group label {
+    display: block;
+    font-weight: bold;
+  }
+
+  .form-group input[type="text"],
+  .form-group input[type="email"] {
+    width: 95%;
+    padding: 5px;
+  }
+
+  .form-group input[type="checkbox"] {
+    margin-right: 5px;
+  }
+
+  .card {
+    background-color: #1acb38;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+  }
+
+  .card img {
+    width: 5cm;
+    height: 5cm;
+    margin-bottom: 10px;
+    border: black;
+    border-width: 2px;
+  }
+
+  #display-data {
+    flex: 1;
+    font-weight: bold;
+  }
